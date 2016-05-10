@@ -1,0 +1,18 @@
+.table{
+	--border: solid 2px;
+}
+.camping{
+	padding: 10px;	
+	border-top: solid 1px;
+	border-left: solid 1px;
+}
+.title{
+	text-align: center;
+}
+
+.rightTable{
+	border-right: solid 1px;
+}
+.baseTable{
+	border-bottom: solid 1px;
+}

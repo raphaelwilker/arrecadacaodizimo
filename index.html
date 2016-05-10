@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head
+<!-- Commentario for commit -->
+<body>
+<div class="conteiner">
+	<div class="col-md-12 title">
+		<h1>IGREJA PRESBITERIANA DE CASA VERDE<br>RELAT&Oacute;RIO DE ARRECADA&Ccedil;&Atilde;O</h1>
+	</div>
+	<div class="col-md-12 table">
+		<div class="col-md-12">
+			<div class="col-md-4 camping leftTable">
+				<p><b>Nome do Membro</b></p>
+			</div>
+			<div class="col-md-2 camping">
+				<p><b>D&iacute;zimo</b></p>
+			</div>
+			<div class="col-md-2 camping">
+				<p><b>Oferta</b></p>
+			</div>
+			<div class="col-md-2 camping">
+				<p><b>Outros</b></p>
+				
+			</div>
+			<div class="col-md-2 camping rightTable">
+				<p><b>Forma de arrecada&ccedil;&atilde;o</b></p>
+			</div>
+		</div>
+		<div class="col-md-12" id="rowInputData">	
+			<div class="col-md-4 camping leftTable">
+				<div class="campInsertData campInsertName"></div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping">
+				<div  class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping">
+				<div  class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping rightTable">
+				<div  class="campInsertData selectType">
+					<select>
+						<option>Dinheiro</option>
+						<option>Cheque</option>
+						<option>Transferencia bancaria</option>
+					</select>
+				</div>
+			</div>
+			
+		</div>
+		<div class="col-md-12">	
+			<div class="col-md-4 camping leftTable">
+				<div><b>Ofertas avulsas</b></div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping rightTable">
+				<div  class="campInsertData selectType">
+					<select>
+						<option>Dinheiro</option>
+						<option>Cheque</option>
+						<option>Transferencia bancaria</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">	
+			<div class="col-md-4 camping leftTable">
+				<div><b>Outros - discriminar</b></div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping rightTable">
+				<div  class="campInsertData selectType">
+					<select>
+						<option>Dinheiro</option>
+						<option>Cheque</option>
+						<option>Transferencia bancaria</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">	
+			<div class="col-md-4 camping leftTable">
+				<div><b>TOTAIS PARCIAIS</b></div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping">
+				<div class="campInsertData">R$</div>
+			</div>
+			<div class="col-md-2 camping rightTable">
+				<div  class="campInsertData selectType">
+					<select>
+						<option>Dinheiro</option>
+						<option>Cheque</option>
+						<option>Transferencia bancaria</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">	
+			<div class="col-md-12 camping leftTable rightTable">
+				<div >TOTAIS EM CHEQUE <span>R$</span></div>
+			</div>
+			<div class="col-md-12 camping rightTable  ">
+				<div >TOTAIS EM DINHEIRO <span>R$</span> </div>
+			</div>
+			<div class="col-md-12 camping rightTable  ">
+				<div >TOTAIS EM TRANSFER&Ecirc;NCIA <span>R$</span> </div>
+			</div>
+			<div class="col-md-6 camping leftTable  baseTable">
+				<div >TOTAL GERAL</div>
+			</div>
+			<div class="col-md-6 camping rightTable  baseTable">
+				<div id="resultTotal">R$</div>
+			</div>
+		</div>
+		<div id="result">
+		</div>
+	</div>
+	<div class="col-md-12">
+		<div class="col-md-4">
+		<button id="insertRow">Adicionar linha</button>
+		</div>
+	</div>
+</div>	
+</body>
+</html>
