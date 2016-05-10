@@ -1,3 +1,3 @@
 # arrecadacaodizimo
 
-# Teste inicial
+Teste inicial
